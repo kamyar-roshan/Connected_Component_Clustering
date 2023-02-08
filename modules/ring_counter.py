@@ -20,5 +20,4 @@ def ring_counter(num_Cu, dist, Cu_bond, num_elem):
             counter = counter + 1
             
     G.remove_edges_from(list(G.edges))
-    
     return int(counter/2)
